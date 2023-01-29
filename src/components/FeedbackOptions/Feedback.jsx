@@ -1,9 +1,9 @@
-import React from "react";
-import { FeedbackBtn } from "./Feedback.styled";
+import React from 'react';
+import { FeedbackBtn } from './Feedback.styled';
 
 export const FeedbackOp = ({ options, onLeaveFeedback }) => (
   <div>
-    {options.map((option) => (
+    {options.map(option => (
       <FeedbackBtn
         onClick={() => onLeaveFeedback(option)}
         key={option}
